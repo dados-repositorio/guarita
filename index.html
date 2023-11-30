@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarita Sapezal</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <picture><img src="logobranco.png"></picture>
+        </header>
+        <div class="espaco"></div>
+        <nav>
+            <a href="index.html">ROLINHOS</a> | <a href="caroco.html">CAROÇO</a> | <a href="pluma.html">PLUMA</a>
+        </nav>
+        <div class="sistema">
+            <form method="POST" action="https://api.sheetmonkey.io/form/jEP89kFe3zVumq3ZKmJw7U">
+                <p>RECEBIMENTO DE ROLINHOS</p>
+                <hr><br>
+                <table class="parte1">
+                    <tr class="cabecalho">
+                        <th>DATA DE ENTRADA:</th>
+                        <th>HORA DE ENTRADA:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="date" name="Data de Entrada">
+                        </td>
+                        <td>
+                            <input type="time" name="Hora de Entrada">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="Turno">
+                                <option selected hidden disabled value="">INFORME UM TURNO</option>
+                                <option>DIA</option>
+                                <option>NOITE</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="NOME DO MOTORISTA" name="Nome do Motorista">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <!--PARTE II DA TABELA-->
+                <hr><br>
+                <table class="parte1">
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="PLACA DO VEÍCULO" name="Placa do Veículo">
+                        </td>
+                        <td>
+                            <input type="number" placeholder="QUANTIDADE" name="Quantidade">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <!--PARTE III DA TABELA-->
+                <hr><br>
+                <table class="parte1">
+                    <tr class="cabecalho">
+                        <th>DATA DE SAÍDA:</th>
+                        <th>HORA DE SAÍDA:</th>
+                    </tr>
+                    <tr>
+                            <td>
+                                <input type="date" name="Data de Saída">
+                            </td>
+                            <td>
+                                <input type="time" name="Hora de Saída">
+                            </td>
+                            <td>
+                                <select name="Origem">
+                                    <option selected hidden disabled value="">FAZENDA/UNIDADE</option>
+                                    <option>FAZ. MAMOSE </option>
+                                    <option>FAZ. SIMARELLI</option>
+                                    <option>FAZ. JUÇARA</option>
+                                    <option>FAZ. VENTANIA </option>
+                                    <option>FAZ. CÉU AZUL</option>
+                                    <option>FAZ. CARAJÁS </option>
+                                    <option>FAZ. PLANTA </option>
+                                    <option>FAZ. SÃO JOSE </option>
+                                    <option>FAZ. SANTA LUZIA </option>
+                                    <option>FAZ. SÃO RAFAEL</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="CADASTRAR"></td>
+                        </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
